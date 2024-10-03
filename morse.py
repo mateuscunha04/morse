@@ -3,8 +3,7 @@ def space ():
 
 space()
 print("Qual você escolhe?\n[ 1 ] Traduzir para a linguagem comum\n[ 2 ] Traduzir para morse")
-escolha = (input())
-space()
+escolha = input()
 
 def normalmorse():
     space()
@@ -69,6 +68,7 @@ def normalmorse():
             mensagem += "-.--"
         elif txtcompleto[a] == "Z":
             mensagem += "--.."
+        mensagem += " "
 
     space()
     print(mensagem)
